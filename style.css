@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+ul li a{
+    
+    font-size: 18px;
+    margin: 10px 20px;
+
+}
+ul li a:hover{
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    border-radius: 8px;
+    background-color: rgb(223, 223, 223);
+}
+a.navbar-brand{
+    padding: 8px;
+}
+
+
+img.card-img-top{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin-left: 95px;
+    margin-top: 10px;
+}
+
+
+.footer{
+    height: 300px;
+    width: 117.2%;
+    top: 0;
+    left: 0;
+    background: #000;
+    margin-left: -112px;
+}
+
+
+.footer h3{
+    color: white;
+}
+
+.icons{
+    margin-top: -60px;
+    margin-left: -80px;
+}
+.icons i{
+    padding: 10px 10px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 25px;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+i.fa-facebook{
+    color: #1877f2;
+}
+
+i.fa-twitter{
+    color: #1da1f2;
+}
+
+i.fa-linkein{
+    color: #0a66c2;
+}
+
+i.fa-instagram{
+    color: #c32aa3;
+}
+
+i.fa-github{
+    color: #24292e;
+}
